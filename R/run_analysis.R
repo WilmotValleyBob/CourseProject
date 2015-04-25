@@ -191,7 +191,7 @@ while (i< (nrow(Std_and_Mean_of_Merged_DataSet))){
 #
 
 Std_and_Mean_of_Merged_DataSet <- subset( Std_and_Mean_of_Merged_DataSet, select = -Activity_Code )
-# Across all columns, replace all instances of "t" with "X"
+
 names(Std_and_Mean_of_Merged_DataSet) <- gsub("\\(\\)", "", names(Std_and_Mean_of_Merged_DataSet))
 
 #
