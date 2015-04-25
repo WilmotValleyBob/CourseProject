@@ -13,3 +13,9 @@ RawtoTidy.R     -   This script downloads the data files and unzips the files in
                 
 run_analysis.R  -   This script does all of the analysis work required for the course project.
                     It depends on the RawtoTidy.R script being run to populate the expected input files.
+                    
+                    
+
+
+The CodeBook for the run_analysis.R script is located in the "R" directory along with the script file
+
